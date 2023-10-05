@@ -48,7 +48,7 @@ a {
 }
 
 p {
-   word-wrap: break-word;
+   
     font-size: 16px;
 }
 
@@ -72,12 +72,16 @@ p {
 }
 
 .content {
+    
     width: 75%;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
     margin-left: 20px;
 }
 
 .benefits {
+    display: flex;
+    flex-direction: column;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -147,6 +151,7 @@ p {
 }
 */
 .search-engine-optimization {
+    overflow:auto;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -156,6 +161,7 @@ p {
 
 .online-reputation-management {
     /*moving font-family to main to reduce bloat */
+  overflow: auto;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -164,6 +170,7 @@ p {
 }
 
 .social-media-marketing {
+    overflow: auto;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
