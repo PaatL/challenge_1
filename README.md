@@ -1,1 +1,3 @@
-# Code Refactor Starter Code
+#challenge_1
+
+refactored code and edited some values 
